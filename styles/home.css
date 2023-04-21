@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+
+img {
+    height: 200px;
+    justify-self: right;
+    border-radius: 25px;
+}
+
+li, h1, h4, a {
+    font-family: "Ubuntu Mono", "Courier New", monospace;
+}
+
+.week {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+body {
+    background-color: #d1e6db;
+}
+header {
+    width: 75%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    background-color: #5d84a8;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+header h1 {
+    align-self: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+main {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+footer {
+    border-radius: 25px;
+    width: 75%;
+    margin: 0 auto;
+    background-color: #000000;
+}
+
+p {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: auto auto;
+    text-align: center;
+}
+
+footer div {
+    color: #cacaca;
+    width: 300px;
+    margin: 0 auto;
+    align-content: center;
+    justify-items: center;
+}
+
