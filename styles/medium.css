@@ -1,0 +1,14 @@
+@media only screen and (max-width: 32.5em) {
+    header {
+        grid-template-columns: auto;
+    }
+
+    img {
+        justify-self: center;
+    }
+
+    header h1 {
+        text-align: center;
+    }
+
+}

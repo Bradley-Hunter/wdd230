@@ -6,7 +6,7 @@ img {
     border-radius: 25px;
 }
 
-li, h1, h4, a {
+li, h1, h2, h4, a {
     font-family: "Ubuntu Mono", "Courier New", monospace;
 }
 
@@ -25,7 +25,7 @@ header {
     grid-gap: 15px;
     background-color: #5d84a8;
     border-radius: 25px;
-    margin: 0 auto;
+    margin: 10px auto 0;
 }
 header h1 {
     align-self: center;
@@ -48,7 +48,7 @@ footer {
 
 h2 {
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1em;
     margin: auto auto;
     text-align: center;
 }
